@@ -6,6 +6,22 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!-- 窗口透明的导航栏 -->
+        <item name="android:windowTranslucentStatus">true</item>
+
+    </style>
+    <!-- 首页用的-->
+    <style name="HomeThem" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/text_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- 新闻页面用的-->
+    <style name="NewsTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/text_color</item>
+        <item name="colorPrimaryDark">@color/text_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
 </resources>
