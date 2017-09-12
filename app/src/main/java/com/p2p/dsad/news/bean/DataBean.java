@@ -5,7 +5,7 @@ package com.p2p.dsad.news.bean;
  * Created by dsad on 2017/9/11.
  */
 
-class DataBean {
+public class DataBean {
     /**
      * news_id : 68883
      * title : 广西边防查获夜鹭132只：眼睛被戳瞎 嘴巴被封住
