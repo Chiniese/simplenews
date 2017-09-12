@@ -8,12 +8,11 @@
     tools:context="com.p2p.dsad.news.HomeActivity">
     <!-- 继续-->
     <android.support.design.widget.AppBarLayout
-        android:fitsSystemWindows="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
      <android.support.v7.widget.Toolbar
          android:id="@+id/top_home_bar"
-         app:layout_scrollFlags="scroll"
+         app:layout_scrollFlags="scroll|enterAlways|snap"
          android:background="@color/text_color"
          android:layout_width="match_parent"
          android:layout_height="wrap_content">
@@ -25,6 +24,7 @@
              android:layout_width="wrap_content"
              android:layout_height="wrap_content" />
      </android.support.v7.widget.Toolbar>
+
     </android.support.design.widget.AppBarLayout>
     <include
         layout="@layout/homemianview"
