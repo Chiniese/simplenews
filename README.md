@@ -17,5 +17,4 @@
 ----
 ![Image text](https://raw.githubusercontent.com/Aoyihala/img/master/3.png)
 ---
-emmmm,丑,没办法json里的数据给的不全。如果提供了新闻的url就可以和原生控件混合起来。
-
+6.新闻浏览解决方案:使用MarkDwonView加载Html代码或使用RichText原生控件加载网页代码
